@@ -33,10 +33,10 @@ public class EndArmorMaterial {
 
     public static final Holder<ArmorMaterial> AETERNIUM = CustomArmorMaterial
             .start(BetterEnd.C.mk("aeternium"))
-            .defense(4, 7, 9, 4, 18)
+            .defense(5, 8, 10, 5, 30)
             .enchantmentValue(40)
             .equipSound(SoundEvents.ARMOR_EQUIP_NETHERITE)
-            .toughness(3.5f)
+            .toughness(4.5f)
             .knockbackResistance(0.2f)
             .repairIngredientSupplier(() -> Ingredient.of(EndItems.AETERNIUM_INGOT))
             .buildAndRegister();
